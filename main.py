@@ -1,4 +1,4 @@
-print("ciao")
-list = ["bella"] 
+# just something for Replit, ignore it
+from subprocess import call
 
-print("<3")
+call(["python", "sss/yolo.py"])
