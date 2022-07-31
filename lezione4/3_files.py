@@ -23,7 +23,7 @@ f.close()
 
 # per semplicità è anche possibile usare la keyword `with` che ci da accesso al file e lo chiude quando finisce il suo scope
 
-with open('readme.txt', 'w') as f:
+with open('readme.txt', 'r') as f:
     f.read()
 
 # la scrittura è altrettanto semplice

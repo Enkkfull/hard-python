@@ -75,3 +75,10 @@ Scrivo questa parte dopo la quarta lezione. Grazie ai preziosi feedback della co
 - List comprehension
 - Files
 - Esercizi
+
+### Lezione #5 (31/07/2022)
+
+- JSON
+- Requests
+- Exceptions
+- Esercizi

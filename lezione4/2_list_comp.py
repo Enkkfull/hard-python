@@ -2,7 +2,7 @@
 # Capita dunque molto spesso di dover scorrere una lista soltanto per verificare una condizione, o prendere un elemento, ecc.
 
 # Per questo motivo python offre uno zucchero sintattico chiamato list comprehension (LC in breve) che permette di creare una nuova lista 
-# a partere da una esistente in maniera più rapida (dal punto di vista sintattico) e leggibile.
+# a partire da una esistente in maniera più rapida (dal punto di vista sintattico) e leggibile.
 
 # Vediamo subito un esempio. Diciamo di avere una lista di frutti e voler prendere tutti quelli che contengono la lettera 'a'. 
 # Con le nozioni che abbiamo, dovremmo scrivere:
