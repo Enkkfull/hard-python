@@ -26,7 +26,7 @@ Esempio:
 +-----------+------------+
 ```
 
-# Compito 03 (off live)
+# Compito 04 (off live)
 Creare un semplice sistema che fornisce la temperatura attuale in una provincia italiana richiesta dall'utente. 
 
 Venga dunque richiesta ad un utente tramite `input` una provincia italiana e tramite le API di [Open Meteo](https://open-meteo.com/en/docs) ottenere la temperatura e temperatura percepita attuale e stamparle. C'è solo un problema: Open Meteo richiede di fornire latitudine e longitudine e non il nome della provincia. Nel file `data/province.json` potete trovare le latitudini e longitudini di ogni provincia.

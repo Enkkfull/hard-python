@@ -82,3 +82,8 @@ Scrivo questa parte dopo la quarta lezione. Grazie ai preziosi feedback della co
 - Requests
 - Exceptions
 - Esercizi
+
+### Lezione #6 (07/08/2022)
+
+- La memoria: stack & heap
+- Indovina il musicista: un esercizio realistico

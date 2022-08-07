@@ -19,8 +19,8 @@
 # Diciamo di aspettarci in input un valore maggiore di cinque:
 
 x = int(input("Inserisci un valore maggiore di 5"))
-if x < 5:
-    raise Exception("Ti avevo detto maggiore di cinque")
+if x <= 5:
+    raise Exception("Ti avevo detto maggiore di cinque, capra")
 
 # grazie alla dicitura "raise Exception()" possiamo lanciare una nostra eccezione generica con un testo configurabile e così facendo interrompere l'esecuzione del codice
 
