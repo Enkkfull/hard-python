@@ -10,9 +10,11 @@ Generare un semplice (lmao) programma-quiz che, dati due autori estratti a caso 
 Chi ha pubblicato più album fra 'Bello Figo' (1) e 'Queen' (2)?
 ```
 
-L'utente dovrà rispondere con 1 o 2 e il sistema gli dirà se ha vinto o no. Continuare a fare indovinelli finché l'utente non scrive "stop" come risposta ad una domanda. Gestire tramite eccezioni l'inserimento di un valore non corretto (né 1, né 2, né stop).
+L'utente dovrà rispondere con 1 o 2 e il sistema gli dirà se ha vinto o no. Gestire tramite eccezioni l'inserimento di un valore non corretto (né 1, né 2).
 
 Utilizzare le [API di Deezer](https://developers.deezer.com/api/artist) per capire qual è la risposta corretta e restituire un feedback all'utente. L'API in questione richiede l'`id` dell'artista, che vi è astutamente fornito nel file `data/authors.json`.
+
+Insieme a questo feedback, chiedere anche all'utente se vuole continuare (inserendo il carattere `Y`) oppure terminare il programma (qualunque altro carattere).
 
 # Compito 02 (off live)
 
