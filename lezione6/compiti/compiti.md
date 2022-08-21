@@ -26,10 +26,10 @@ def doubler(l):
 		l[i] = l[i]*2
 	
 l1 = [1,2,3]
-doubler(l)
+doubler(l1)
 
 ```
-
+Non abbiamo visto come funzionano i metodi in stack e heap: provare a ipotizzarne il funzionamento. Poi controllarlo sul sito web che abbiamo usato nella lezione.
 
 # Compito 03 (off live)
 

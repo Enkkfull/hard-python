@@ -4,7 +4,7 @@ import json
 DEEZER_SEARCH_ARTIST_API = "https://api.deezer.com/search/artist"
 
 # edit this list
-to_be_searched_artits = ["Elio e le storie tese", "Queen", "Eminem", "Al Bano", "Mina", "Ghali", "Muse", "The Beatles", "The Rolling Stones", "Micheal Jackson"]
+to_be_searched_artits = ["Elio e le storie tese", "Queen", "Eminem", "Al Bano", "Mina", "Ghali", "Muse", "The Beatles", "The Rolling Stones", "Micheal Jackson", "I Prevail", "Oasis", "Pink Floyd", "Billie Eilish", "Drake", "Panetty", "Naska", "Daft Punk"]
 
 results = {}
 

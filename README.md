@@ -85,5 +85,10 @@ Scrivo questa parte dopo la quarta lezione. Grazie ai preziosi feedback della co
 
 ### Lezione #6 (07/08/2022)
 
-- La memoria: stack & heap
+- La memoria: stack & heap (parte I)
 - Indovina il musicista: un esercizio realistico
+
+### Lezione #7 (21/08/2022)
+
+- La memoria: stack & heap (parte II)
+- Parsing Wikipedia: un esercizio sui morti

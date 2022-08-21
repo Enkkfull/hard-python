@@ -1,5 +1,6 @@
 # just something for Replit, ignore it
 from subprocess import call
 
-call(["python", "lezione6/compiti/1_compiti.py"])
+call(["python", "lezione7/compiti/wiki_deaths_extractor.py"])
+
 

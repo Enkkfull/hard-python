@@ -93,11 +93,13 @@ print(x)
 # È possibile formattare stringhe usando il metodo .format
 
 msg1 = 'Fred scored {} out of {} points.'
-msg1.format(3, 10)
+x = msg1.format(3, 10)
+print(x)
 # => 'Fred scored 3 out of 10 points.'
- 
+
 msg2 = 'Fred {verb} a {adjective} {noun}.'
-msg2.format(adjective='fluffy', verb='tickled', noun='hamster')
+x = msg2.format(adjective='fluffy', verb='tickled', noun='hamster')
+print(x)
 # => 'Fred tickled a fluffy hamster.'
 
 # In realtà è addirittura possibile usare la funzione print per farlo direttamente in fase di stampa

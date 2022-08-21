@@ -1,4 +1,5 @@
-# Andiamo avanti con la memoria. 
+# Andiamo avanti con la visualizzazione dello stato in memoria durante l'esecuzione di codice python. Ricordo che facciamo uso del tool https://pythontutor.com/render.html
+ 
 #################################################################################
 
 # look at the parameters!
@@ -10,8 +11,7 @@ def sommetta(a,b):
 
 a = 10
 b = 15
-c = a+b
-
+c = sommetta(a,b)
 
 #################################################################################
 
@@ -35,23 +35,18 @@ print(lresult)
 #################################################################################
 
 # scope 
+l1 = [1,2,3]
+l2 = [10,20,30]
 
-def m_one(a,b):
-	x = "ciao"
-	print(a)
-	print(b)
-	b = "b_2"
-	print(b)
-	print(x)
+# look at the parameters!
+def sommetta(l1,l2):
+    for i in range(len(l1)):
+        l1[i]    = l1[i]+l2[i]
 
-	
-a = "a"
-b = "b"
-c = "c"
+    return l1
 
-m_one(a,b)
-print(b)
-print(x)
+lresult = sommetta(l1,l2)
+print(lresult)
 
 
 #################################################################################

@@ -274,6 +274,17 @@ python-versions = ">=3.7"
 watchdog = ["watchdog"]
 
 [[package]]
+name = "wikipedia-api"
+version = "0.5.4"
+description = "Python Wrapper for Wikipedia"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+requests = "*"
+
+[[package]]
 name = "yarl"
 version = "1.7.2"
 description = "Yet another URL library"
@@ -300,7 +311,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "61a91b3c21beb00169ec5189eb8fdb624074fb33bec7f17851a8979a4ac39324"
+content-hash = "fe5e8142a2eefe0f5e33ce4b542f163df5de9ce2fe0e9a73db710426353206ef"
 
 [metadata.files]
 aiohttp = []
@@ -327,5 +338,6 @@ typing-extensions = []
 urllib3 = []
 wcwidth = []
 werkzeug = []
+wikipedia-api = []
 yarl = []
 zipp = []
