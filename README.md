@@ -30,6 +30,12 @@ Ecco un esempio di Tweet:
 "user": "repubblica"
 ```
 
+## Note in corso d'opera
+Scrivo questa parte dopo la quarta lezione. Grazie ai preziosi feedback della community le lezioni dalla quarta in poi saranno meno "pesanti" dal punto di vista teorico e di introduzione di cose, e più orientate a fare esercizi insieme. Alcuni saranno fatti live durante la lezione, mentre l'esercizio a casa sarà più semplice e meno time consuming. Inoltre il corso si espanderà (ritardando la parte di elaborazione di Twitter) volendo anche includere spiegazioni di cose teoricamente più avanzate, ma preziose anche per chi già sa programmare (anche in altri linguaggi). 
+
+Scrivo questa parte dopo la settima lezione. Gli argomenti teorici che vorrei trattare sono ormai quasi terminati, nominalmente manca qualcosa in merito alla rappresentazione dei dati (grafici ad esempio) e il grande argomento degli oggetti/classi. Ho deciso di introdurre alcuni progetti un po' più grossi che vedremo in live mano a mano, utilizzando API di servizi utili e che potreste decidere di usare per sviluppare dei vostri progetti. Poi, finalmente, ci muoveremo verso il progetto di Twitter.
+
+
 ## File di supporto
 
 Ogni lezione è contenuta in una cartella di questo github e contiene vari file numerati, uno per ogni argomento. Inoltre c'è una cartella `compiti` che contiene la consegna e le varie soluzioni implementate da Giulia (in live, durante la settimana). I compiti vengono sempre corretti nel video della lezione successiva. 
@@ -37,9 +43,6 @@ Ogni lezione è contenuta in una cartella di questo github e contiene vari file 
 ## Sulla lingua
 
 Le lezioni sono in italiano, così come i compiti e i commenti che guidano le varie lezioni. Il codice invece è tendenzialmente in inglese dato che programmare in qualunque altra lingua è una pratica poco suggerita (il codice deve essere potenzialmente comprensibile da tutti). 
-
-## Note in corso d'opera
-Scrivo questa parte dopo la quarta lezione. Grazie ai preziosi feedback della community le lezioni dalla quarta in poi saranno meno "pesanti" dal punto di vista teorico e di introduzione di cose, e più orientate a fare esercizi insieme. Alcuni saranno fatti live durante la lezione, mentre l'esercizio a casa sarà più semplice e meno time consuming. Inoltre il corso si espanderà (ritardando la parte di elaborazione di Twitter) volendo anche includere spiegazioni di cose teoricamente più avanzate, ma preziose anche per chi già sa programmare (anche in altri linguaggi). 
 
 
 ## Riassunto lezioni

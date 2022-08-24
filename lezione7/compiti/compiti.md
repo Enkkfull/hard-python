@@ -1,8 +1,8 @@
 Creare per ogni compito e ogni soluzione un file.
 
-# Compito 01 (in live)
+# Compito 01
 
-Creare un semplice programma che costruisca un database (in formato json) di tutte le morti illustri dal 1990 al 2021. Salvare il file in `data/deadge.json`. Il database dovrà contenere: 
+Creare un semplice programma che costruisca un database (in formato json) di tutte le morti illustri dal 1992 al 2021. Salvare il file in `data/deadge.json`. Il database dovrà contenere: 
 
 - Data di morte
 - Nome e cognome del deceduto
@@ -15,15 +15,8 @@ In particolare si osservi come sono costruite queste pagine e trovare l'algoritm
 - https://en.wikipedia.org/wiki/Lists_of_deaths_by_year
 - https://en.wikipedia.org/wiki/1990#Deaths
 
-# Compito 02 (off live)
+Il compito è stato iniziato in live e continuerà nella prossima lezione. Pertanto, niente compiti a casa!
 
-Integrare il database del compito precedente aggiungendo l'età di ciascun deceduto/a. Ci sono almeno due modi per farlo, uno più preciso ma complicato e l'altro più impreciso e veloce. Vi lascio l'aiuto qui sotto.
-
-
-<details> 
-  <summary>Dove trovo l'età?</summary>
-È possibile ottenere tale informazione in maniera precisa andando alla pagina Wikipedia di ciascun morto, oppure è possibile usare la dicitura (`(b. 1905)`) che si trova nelle pagine delle morti di ciascun anno. Naturalmente in questo caso l'età potrà essere sbagliata di un anno, ma va comunque bene. Inoltre quella dicitura non è sempre disponibile.
-</details>
 
 &nbsp;
 
