@@ -6,6 +6,9 @@ Creare un semplice programma che costruisca un database (in formato json) di tut
 
 - Data di morte
 - Nome e cognome del deceduto
+- Età del deceduto
+
+Se possibile anche altri dati relativi alla morte (laddove ci siano consistenze).
 
 Questo database sarà poi usato nei prossimi compiti.
 
