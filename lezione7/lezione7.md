@@ -1,6 +1,5 @@
-Creare per ogni compito e ogni soluzione un file.
-
-# Compito 01
+## Lezione 7
+## Progetto "Parsing Wikipedia: il wikimorti dataset"
 
 Creare un semplice programma che costruisca un database (in formato json) di tutte le morti illustri dal 1992 al 2021. Salvare il file in `data/deadge.json`. Il database dovrà contenere: 
 
