@@ -44,6 +44,11 @@ Ogni lezione è contenuta in una cartella di questo github e contiene vari file 
 
 Le lezioni sono in italiano, così come i compiti e i commenti che guidano le varie lezioni. Il codice invece è tendenzialmente in inglese dato che programmare in qualunque altra lingua è una pratica poco suggerita (il codice deve essere potenzialmente comprensibile da tutti). 
 
+## Mini progetti 
+Dalla lezione 7 iniziano dei mini progetti che durano più lezioni. Per comodità li riporto qui con le lezioni pertinenti, così da poterli consultare separatamente dal resto. 
+
+- **Parsing wikipedia: il wikimorti dataset**: creazione di un dataset contenente tutti i morti "celebri" dal 1992 al 2021 parsificandoli da Wikipedia e studiare un po' di statistiche in merito. Lezioni #7, #8.
+
 
 ## Riassunto lezioni
 
@@ -94,4 +99,8 @@ Le lezioni sono in italiano, così come i compiti e i commenti che guidano le va
 ### Lezione #7 (21/08/2022)
 
 - La memoria: stack & heap (parte II)
-- Parsing Wikipedia: un esercizio sui morti
+- Inizio progetto "Parsing Wikipedia: il wikimorti dataset"
+
+### Lezione #8 (28/08/2022)
+
+- Continua "Parsing Wikipedia: il wikimorti dataset" 
