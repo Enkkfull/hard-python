@@ -15,10 +15,19 @@ Le lezioni sono in italiano, così come i compiti e i commenti che guidano le va
 ## Mini progetti 
 Dalla lezione 7 iniziano dei mini progetti che durano più lezioni. Per comodità li riporto qui con le lezioni pertinenti, così da poterli consultare separatamente dal resto. 
 
-1) **Parsing Wikipedia: il wikimorti dataset**. creazione di un dataset contenente tutti i morti "celebri" dal 1992 al 2021 parsificandoli da Wikipedia e studiare un po' di statistiche in merito. Lezioni #7, #8.
+1) **Parsing Wikipedia: il wikimorti dataset**. creazione di un dataset contenente tutti i morti "celebri" dal 1992 al 2021 parsificandoli da Wikipedia e studiare un po' di statistiche in merito. Lezioni #7, #8, #9, #10.
 
 
 ## Indice delle lezioni
+
+### Lezione #10 (11/09/2022)
+
+- Continua "Parsing Wikipedia: il wikimorti dataset"
+
+### Lezione #9 (4/09/2022)
+
+- Continua "Parsing Wikipedia: il wikimorti dataset"
+
 ### Lezione #8 (28/08/2022)
 
 - Continua "Parsing Wikipedia: il wikimorti dataset"
