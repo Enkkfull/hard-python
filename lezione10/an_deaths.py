@@ -1,35 +1,45 @@
 import json
 import matplotlib.pyplot as plt
 
+# Load data
+with open('lezione10/deadge.json', 'r') as f:
+    data = json.load(f)
 
-years = ['1991', '1992', '1993']
-deaths = [10, 20, 50]
 
-plt.plot(years, deaths)
+tot_morti_mese = {} # totale morti per ogni mese di ogni anno
+tot_morti_anno = {} # totale morti per ogni anno
+tot_morti_per_mese_acc = {} # accumulatore di morti per mese di ogni anno 
+
+for anno, anno_vals in data.items():
+	morti_anno_value = 0
+	for mese, mese_vals in data[anno].items():
+		morti_mese_value = 0
+		if mese not in tot_morti_per_mese_acc.keys():
+			tot_morti_per_mese_acc[mese] = 0
+			
+		for giorno, giorno_vals in mese_vals.items():
+			morti_anno_value += len(giorno_vals)
+			morti_mese_value += len(giorno_vals) 
+			tot_morti_per_mese_acc[mese] += len(giorno_vals) 
+		tot_morti_mese[anno + " " + mese] = morti_mese_value
+	tot_morti_anno[anno] = morti_anno_value
+
+
+# calcola medie per mese	
+tot_morti_per_mese = {key:value/len(data.keys()) for (key,value) in tot_morti_per_mese_acc.items()}
+
+#avg_morti_mese
+avg_morti_mese = sum(tot_morti_mese.values())/len(tot_morti_mese.values())
+print("Avg morti al mese: ", avg_morti_mese)
+
+
+
+x = tot_morti_per_mese.keys()
+y = tot_morti_per_mese.values()
+
+plt.plot(x, y)
+plt.plot(x, [avg_morti_mese]*len(x))
+plt.xticks(rotation=45)
 plt.suptitle('Morti per anno')
 plt.show()
 
-with open('lezione9/deadge.json', 'r') as f:
-  data = json.load(f)
-
-# in che mese é morto raimondo vianello
-
-x = input("Chi é morto? ")
-
-for year in data.keys():
-	for month in data[year].keys():
-		for day, deaths_of_day in data[year][month].items():
-			for person in deaths_of_day:
-				if x in person["name"]:
-					print(person)
-					print(year, month, day)
-
-
-count_deaths = 0
-
-for year in data.keys():
-	for month in data[year].keys():
-		for day, deaths_of_day in data[year][month].items():
-			count_deaths += len(deaths_of_day)
-			
-print(count_deaths)

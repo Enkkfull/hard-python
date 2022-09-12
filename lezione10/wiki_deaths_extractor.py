@@ -27,7 +27,7 @@ def main():
 			
   
 # scrittura
-	with open('lezione9/deadge.json', 'w') as f:
+	with open('lezione10/deadge.json', 'w') as f:
 	  json.dump(tot_data, f, indent=3)
 
 """

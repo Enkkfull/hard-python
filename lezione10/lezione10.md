@@ -25,7 +25,7 @@ Una volta raccolti i dati si prepari un secondo script che calcoli qualche stati
 
 Sbizzarritevi, ma ecco alcuni esempi:
 
-- I decessi medi per mese in tutti questi anni.
+- I decessi totali per mese in tutti questi anni.
 - I 20 nomi più comuni fra i deceduti.
 - L'età media di morte.
 - Il morto più giovane.
