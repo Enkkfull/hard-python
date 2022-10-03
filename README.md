@@ -20,6 +20,10 @@ Dalla lezione 7 iniziano dei mini progetti che durano pi√π lezioni. Per comodit√
 
 ## Indice delle lezioni
 
+### Lezione #11 (02/10/2022)
+
+- Introduzione a classi e oggetti.
+
 ### Lezione #10 (11/09/2022)
 
 - Continua "Parsing Wikipedia: il wikimorti dataset"
